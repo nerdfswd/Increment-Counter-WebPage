@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(30, 7, 245, 0.842);
+  font-family: "Quicksand", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.counter-timer {
+  padding-left: 5rem;
+}
+i {
+  color: rgba(255, 255, 255, 0.911);
+  padding-bottom: 1.5rem;
+}
+.counter {
+  color: rgb(255, 145, 0);
+  font-size: 3rem;
+}
+span {
+  color: rgba(255, 255, 255, 0.911);
+  font-size: 1rem;
+  padding-left: -2.5rem;
+  margin-top: -1rem;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  i {
+    padding-top: 2rem;
+  }
+}
